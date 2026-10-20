@@ -1,0 +1,113 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     --White: hsl(0, 0%, 100%);
+     --Stone100: hsl(30, 54%, 90%);
+     --Stone150: hsl(30, 18%, 87%);
+     --Stone600: hsl(30, 10%, 34%);
+     --Stone900: hsl(24, 5%, 18%);
+     --Brown800: hsl(14, 45%, 36%);
+     --Rose800: hsl(331, 36%, 78%);
+     --Rose50: hsl(330, 100%, 98%);
+ }
+
+ body {
+     background: var(--Rose800);
+     font-family: Young Serif Outfit;
+
+ }
+
+ .container {
+     background-color: var(--White);
+     width: 800px;
+     margin: 0 auto;
+     border-radius: 20px;
+     padding: 30px;
+
+ }
+
+ img {
+     width: 100%;
+     height: 100%;
+     margin: 0 auto;
+     object-fit: cover;
+     border-radius: 20px;
+
+ }
+
+ .wrap {
+     margin-left: 40px;
+ }
+.wrap h1{
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+.wrap p{
+font-family: Outfit;
+font-weight: 400, 600, 700;
+}
+ .ola {
+     background-color: var(--Rose50);
+     padding: 20px;
+     margin: 20px;
+     border-radius: 10px;
+ }
+
+ .ola h2 {
+     color: var(--Brown800);
+
+ }
+
+ .sade h2 {
+     color: var(--Brown800);
+     margin-right: 40px;
+     padding: 30px;
+ }
+
+ .abeke {
+     margin-left: 30px;
+     padding: 30px;
+ }
+
+ .taiwo {
+     padding: 30px;
+ }
+
+ .taiwo h2 {
+     color: var(--Brown800);
+
+ }
+
+ .labake h2 {
+     color: var(--Brown800);
+ }
+
+ .labake {
+     padding: 30px;
+ }
+
+table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ th,
+ td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: white;
+ }
+
+ td {
+     color: var(--Brown800);
+ }
